@@ -33,9 +33,9 @@ export default function App() {
     const now = new Date();
     const hour = now.getHours();
     let greeting = "Welcome back, buddy!";
-    if (hour >= 5 && hour < 12) greeting = "Good morning, buddy!";
-    else if (hour >= 12 && hour < 18) greeting = "Good afternoon, buddy!";
-    else greeting = "Good evening, buddy!";
+    if (hour >= 5 && hour < 12) greeting = "Good morning, UPSCALE!";
+    else if (hour >= 12 && hour < 18) greeting = "Good afternoon, UPSCALE!";
+    else greeting = "Good evening, UPSCALE!";
     alert(greeting);
   }, []);
 
